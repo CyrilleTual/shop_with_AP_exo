@@ -1,0 +1,18 @@
+<!-- fichier d'affichage de la shop-page -->
+
+<main>
+    <h2>SHOP PAGE</h2>
+
+
+    <!-- la syntaxe ejs permet de boucler sur le tableau
+    transmit deppuis un controleur en transitant 
+    par le layout -->
+    <% for(const data of datas) {%>
+
+    <!-- affichage pour chaque occurence de la valeur à la clé title  -->
+    <article>
+        <h3><%= data.title %></h3>
+    </article>
+
+    <% } %>
+</main>

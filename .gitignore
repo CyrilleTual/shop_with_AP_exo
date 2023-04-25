@@ -1,0 +1,3 @@
+# spécification des dossiers et fichiers à ignorer par git
+
+/node_modules

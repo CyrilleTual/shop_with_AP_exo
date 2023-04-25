@@ -1,0 +1,28 @@
+{
+  "name": "04-shop_with_admin",
+  "version": "0.1.0",
+  "description": "base de l'exercice 03 - shop avec un panneau admin'",
+  "main": "src/app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [
+    "node",
+    "javascript",
+    "express",
+    "ejs",
+    "e-commerce"
+  ],
+  "author": "Romain Fournier",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}

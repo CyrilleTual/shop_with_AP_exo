@@ -4,7 +4,7 @@ import { getRandomInteger } from "../utils/index.js";
 
 
 // fonction qui prend en paramètre les 2 paramètres 
-// du cycle de communication client/serveur 
+// du cycle de communication client/serveur et va retourner au client le HTML
 
 export const homeView = (req, res) => {
 

@@ -11,7 +11,7 @@ export const adminView = (req, res) => {
         // methode render va renvoye le HTML
         // ici on fait appel à la page "layout"
         // a laquelle on passe 2 paramètres dans
-        // un objet 
+        // un objet.
         // res.local.diplay vient d'être defini par un middleWare 
         // appelé par le routeur 
         .render("layout", {

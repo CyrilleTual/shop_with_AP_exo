@@ -8,7 +8,7 @@ export default (req, res, next) => {
     // l'objet "res/locals", sera accessible tout le long 
     // du cycle de vie de la requète
     // (puis transmise par le controlleur à la vue)
-
+  
     if (req.url === "/") {
         res.locals.display = "../admin/list";
     }

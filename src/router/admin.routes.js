@@ -9,9 +9,9 @@ const router = Router();
 
 
 // ici on est sur l'url:  /admin 
-// on appelle en premier un middleWare qui va vérifier
+// on appelle en premier un middleWare (qui va vérifier
 // l'url et affecter la valeur "../admin/list" à une clé display de
-// l'objet "res/locals" si on est bien sur "/"
+// l'objet "res/locals" si on est bien sur "/")
 // puis appel du controlleur 
 router.get("/", displayHandler, adminView);
 
